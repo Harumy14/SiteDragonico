@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝕊𝕚𝕥𝕖 𝔻𝕣𝕒𝕘𝕠𝕟𝕚𝕔𝕠</title>
+    <link rel="icon" href="./favicons/dragao.png">
+    <link rel="stylesheet" href="styles3.css">
+    <script src="js/atividade.js"></script>
+</head>
+<body>
+    <div class="background-image"></div>
+    <header>
+       <h1>𝕊𝕚𝕥𝕖 𝔻𝕣𝕒𝕘𝕠𝕟𝕚𝕔𝕠</h1>
+       <nav>
+        <button class="cadastrar">Cadastrar</button>
+        <img src="img/do-utilizador 1.png" class="do-utilizador" alt="">
+       </nav>
+    </header>
+    <div class="pw">
+        <button class="image-background-button1" onclick="redirectUm()"></button>
+        <button class="image-background-button2" onclick="redirectDois()"></button>
+        <button class="image-background-button3" onclick="redirectTres()"></button>
+        <button class="image-background-button4" onclick="redirectQuatro()"></button> 
+    </div>
+    
+    <div id="modal-content2">
+        <div class="dragon-image1"></div>
+    </div>
+
+    <main class="page_main" lang="pt">
+        <div id="modal-content" class="page-content ve-init-mw-desktopArticleTarget-targetContainer">
+        <h2>𝓟𝓮𝓻𝓰𝓾𝓷𝓽𝓪𝓼</h2>
+        <br>
+        <div class="quiz-container">
+            <h3>Nível 1 - Fácil</h3>
+            <div class="question" data-difficulty="1">
+                <p>1.1 Dragões verdadeiros são repteis alados de linhagem ancestral e poderes assustadores. 
+                Os dragões também são criaturas mágicas cujo poder inato carrega suas temíveis armas de sopro e habilidades que carregam a energia mais pura do Caos Arcano. 
+                Criaturas que carregam atributos de divindade, e que são limitadíssimas em quantidade no cenário. Qual é o dragão que reside em 1.200 anos de vida?</p>
+                <button class="button1" onclick="verificarResposta(this, true)">A- Myr.</button>
+                <button class="button2" onclick="verificarResposta(this, false)">B- Amanthys.</button>
+                <button class="button3" onclick="verificarResposta(this, false)">C- Wil.</button>
+                <button class="button4" onclick="verificarResposta(this, false)">D- Turnuroth.</button>
+            </div>
+            <div class="question" data-difficulty="1">
+                <p>1.2 Wil atualmente reside em Thyphirion, ele Cortou as Asas de seu antecessor a 900 anos. Após se tornar...</p>
+                <button class="button1" onclick="verificarResposta(this, true)">A- Dragão Negro.</button>
+                <button class="button2" onclick="verificarResposta(this, false)">B- dragão reside.</button>
+                <button class="button3" onclick="verificarResposta(this, false)">C- Dragão Branco.</button>
+                <button class="button4" onclick="verificarResposta(this, false)">D- Dragão verde.</button>
+            </div>
+            
+            <h3>Nível 2 - Médio</h3>
+            <div class="question" data-difficulty="2">
+                <p>2.1 Qual dragão na mitologia nórdica é responsável por roer as raízes da árvore Yggdrasil?</p>
+                <button class="button1" onclick="verificarResposta(this, true)">A- Níðhöggr.</button>
+                <button class="button2" onclick="verificarResposta(this, false)">B- Jormungandr.</button>
+                <button class="button3" onclick="verificarResposta(this, false)">C- Fafnir.</button>
+                <button class="button4" onclick="verificarResposta(this, false)">D- Smaug.</button>
+            </div>
+            <div class="question" data-difficulty="2">
+                <p>2.2 Velearyon antes de ser o Dragão Vermelho, era um Necromante formado na Torre Ziguratti, ele Cortou as Asas de seu antecessor no fim da terceira era e desde então vem adquirindo poder de diversas formas,
+                atualmente ele realizou um ataque a Corte de Outono. Após a descrição sobre o dragão vermelho, ele é considerado.</p>
+                <button class="button1" onclick="verificarResposta(this, false)">A- Tem uma forte ligação com os Gnomos de Myr.</button>
+                <button class="button2" onclick="verificarResposta(this, false)">B- Ele foi morto quando tentava realizar um ritual arcano na Ilha que hoje é chamada de Vespeiro.</button>
+                <button class="button3" onclick="verificarResposta(this, false)">C- Muito pouco ao Plano Material e geralmente causa muita destruição quando vem.</button>
+                <button class="button4" onclick="verificarResposta(this, true)">D- Muito ganancioso.</button>
+            </div>
+            
+            <h3>Nível 3 - Difícil</h3>
+            <div class="question" data-difficulty="3">
+                <p>3.1 Na mitologia grega, que dragão de muitas cabeças guardava o Jardim das Hespérides?</p>
+                <button class="button1" onclick="verificarResposta(this, true)">A- Ladon.</button>
+                <button class="button2" onclick="verificarResposta(this, false)">B- Fafnir.</button>
+                <button class="button3" onclick="verificarResposta(this, false)">C- Hydra.</button>
+                <button class="button4" onclick="verificarResposta(this, false)">D- Smaug.</button>
+            </div>
+            <div class="question" data-difficulty="3">
+                <p>3.2 Os Elementos, Ar, Terra, Fogo, Vazio e Água, compõe o Ningen-dô. Os elementos foram criados após o Nada que através do...</p>
+                <button class="button1" onclick="verificarResposta(this, false)">A- Medo, arrependimento e desejo.</button>
+                <button class="button2" onclick="verificarResposta(this, true)">B- Medo, desejo e arrependimento.</button>
+                <button class="button3" onclick="verificarResposta(this, false)">C- Desejo, arrependimento e medo.</button>
+                <button class="button4" onclick="verificarResposta(this, false)">D- Arrependimento, desejo e medo.</button>
+            </div>
+
+            <!-- Nível 4 - Super Difícil -->
+            <h3>Nível 4 - Super Difícil</h3>
+            <div class="question" data-difficulty="4">
+                <p>4.1 O que o Dragão do Fogo usou para consolar Amaterasu após a queda dos Kami ao Ningen-dô?</p>
+                <button class="button1" onclick="verificarResposta(this, false)">A- Um conto sobre a união dos shinzoku.</button>
+                <button class="button2" onclick="verificarResposta(this, false)">B- Uma visão de batalhas gloriosas entre dragões e humanos.</button>
+                <button class="button3" onclick="verificarResposta(this, false)">C- Um cântico de paz e esperança para os Kami.</button>
+                <button class="button4" onclick="verificarResposta(this, true)">D- Uma história fictícia sobre animais vivendo harmoniosamente.</button>
+            </div>
+            <div class="question" data-difficulty="4">
+                <p>4.2 Qual característica não faz parte dos Dragões da Água, conhecidos por trazer paz e calma a quem evoca sua energia?</p>
+                <button class="button1" onclick="verificarResposta(this, false)">A- Trabalhar com as divindades dos panteões aquáticos.</button>
+                <button class="button2" onclick="verificarResposta(this, true)">B- Respirarem hálito de gelo e possuírem asas gigantes.</button>
+                <button class="button3" onclick="verificarResposta(this, false)">C- Serem longilíneos, de escamas brancas ou azuladas.</button>
+                <button class="button4" onclick="verificarResposta(this, false)">D- Atenderem aos que clamam por ajuda em várias dimensões espirituais.</button>
+            </div>
+            <div class="result">
+                <button onclick="mostrarResultado()">Mostrar Pontuação Final</button>
+                <button onclick="mostrarRespostasCorretas()">Mostrar Respostas Corretas</button>
+                <p id="moedas">Moedas: 0</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

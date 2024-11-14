@@ -1,0 +1,374 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    text-align: center;
+    padding: 1rem;
+    color: #f4f4f9;
+    background-color: #b6a17496;
+    padding: 1px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+h1 {
+    color: black;
+    font-size: 2.5em;
+    margin-bottom: 0.5rem;
+    margin-right: 600px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+.dragao {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/*imagem dragão*/
+.dragao-imagem1 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+.dragao-imagem2 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+.dragao-imagem3 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+.dragao-imagem4 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+.dragao-imagem5 {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+.dragao-imagem6 {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+.dragao-imagem7 {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+.dragao-imagem8 {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+.dragao-imagem9 {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+.dragao-imagem10 {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+.dragao-imagem111 {
+    width: 100%;
+    max-width: 215px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+.dragao-imagem112 {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+.wyvern{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+.drake{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+.lindworm{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+.amphitere{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.dragon-bonus {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+.dragon-bonus2 {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+/*titulo dragão*/
+.dragao h2 {
+    color: #090347;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+.dragao h3{
+    color: #F9F9F9;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+.dragao h4{
+    color: #000000;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+.dragao h5{
+    color: #5ce40e;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+.dragao h6{
+    color: #e40e0e;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+.dragao h7{
+    color: #620707;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+.dragao h8{
+    color: #071062;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+.dragao h9{
+    color: #463104;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+.dragao h10{
+    color: #4a4a49;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+.dragao h11{
+    color: #ffff06;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+.dragao h12{
+    color: #222201;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+.dragao h13{
+    color: #025f54;
+    font-size: 2rem;
+    margin-top: 0.5rem;
+}
+
+.dragao p {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+/* Estilo para a div do modal */
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Coloca a imagem atrás do conteúdo */
+    background-image: url('img/image 1.png'); /* Caminho correto da imagem */
+    background-size: cover;
+}
+#modal-content {
+    width: 150%; /* Defina a largura desejada, ex: 90% da tela */
+    max-width: 1000px;
+    height: 13200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-image: url('img/Frame 1.png'); /* Caminho da imagem */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Cor do texto para contraste */
+    text-align: center;
+    padding: 20px;
+    margin-left: -185px;
+    margin-top: -10px;
+}
+h3{
+    font-size: 2.5rem;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*Cadastro*/
+.cadastrar{
+    height: 40px;
+    width: 140px;
+    background-color: #1B2423;
+    color: #fff;
+    border-radius: 30px;
+    border-color: #AC9E9E;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: -450px;
+    margin-right: 200px;
+}
+.cadastrar:hover {
+    background-color: #000;
+    color: #fff;
+}
+.do-utilizador{
+  margin-left: -160px;
+  height: 50px;
+  position: relative;
+  margin-top: 20px;
+  margin-right: 19px;
+}
+
+/*Botão imagem*/
+.pw {
+    width: 1481px;
+    height: 55px;
+    margin-top: 10px;
+    background-color: #cfb06eda;
+    display: inline;
+    list-style: none;
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+.image-background-button1{
+    padding: 10px 20px;
+    margin: 3px;
+    height: 40px;
+    width: 200px;
+    margin-left: 100px;
+    background-image: url('img/home_FILL0_wght400_GRAD0_opsz24\ 1.png'); /*Caminho da imagem */
+    background-size: 35px; /*Tamanho do ícone */
+    background-repeat: no-repeat;
+    background-position: 80px center;
+    border: none;
+    border-radius: 30px;
+    margin-top: 6px;
+}
+.image-background-button2{
+    padding: 10px 20px;
+    margin: 3px;
+    height: 40px;
+    width: 200px;
+    margin-left: 150px;
+    background-image: url('img/dragao3-removebg-preview\ 1.png'); /*Caminho da imagem */
+    background-size: 35px; /*Tamanho do ícone */
+    background-repeat: no-repeat;
+    background-position: 80px center;
+    border: none;
+    border-radius: 30px;
+    margin-top: 6px;
+}
+.image-background-button3{
+    padding: 10px 20px;
+    margin: 3px;
+    height: 40px;
+    width: 200px;
+    margin-left: 150px;
+    background-image: url('img/pincel\ 2.png'); /*Caminho da imagem */
+    background-size: 35px; /*Tamanho do ícone */
+    background-repeat: no-repeat;
+    background-position: 80px center;
+    border: none;
+    border-radius: 30px;
+    margin-top: 6px;
+}
+.image-background-button4{
+    padding: 10px 20px;
+    margin: 3px;
+    height: 40px;
+    width: 200px;
+    margin-left: 150px;
+    background-image: url('img/dolar\ 1.png'); /*Caminho da imagem */
+    background-size: 35px; /*Tamanho do ícone */
+    background-repeat: no-repeat;
+    background-position: 80px center;
+    border: none;
+    border-radius: 30px;
+    margin-top: 6px;
+}
